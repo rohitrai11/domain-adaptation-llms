@@ -114,11 +114,6 @@ torchrun --standalone --nproc_per_node=gpu pretrain-multi-gpu.py --mixed_precisi
 
 ---
 
-## Acknowledgements
-
-- Built on top of **PyTorch**, **Hugging Face Transformers/Datasets/Accelerate**.
-- PubMed data provided by **NCBI** (baseline XML). Please respect the data usage policies and cite appropriately.
-
 ---
 
 ## Citation (for your repository)
