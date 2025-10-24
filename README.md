@@ -111,11 +111,3 @@ torchrun --standalone --nproc_per_node=gpu pretrain-multi-gpu.py --mixed_precisi
 ├── pretrain-multi-gpu.py         # DDP chunked pretraining on the JSONL corpus
 └── pubmed_abstract_corpus_detailed.jsonl   # (generated) training data
 ```
-
----
-
----
-
-## Citation (for your repository)
-
-If this workflow is useful in your research, please consider citing your repository and/or the libraries you use (PyTorch and Hugging Face). Also cite PubMed/NCBI as appropriate for the data source.
